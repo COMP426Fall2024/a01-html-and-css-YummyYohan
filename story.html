@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Persephone</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+        <div class="story">
+            <h1>The Story of Persephone</h1>
+            <img src="https://images.saatchiart.com/saatchi/1857354/art/8765053/7828536-HSC00923-7.jpg" alt="The abduction of persephone">
+            <h2>Her abduction</h2>
+            <p>Once, while the young goddess Persephone, then known as Kore, was joyfully playing in a meadow filled with vibrant flowers, she was suddenly seized by <a href="https://en.wikipedia.org/wiki/Hades">Hades</a>, the god of the underworld. He whisked her away to his dark kingdom, intending to make her his bride. Her sudden disappearance left her mother, Demeter, the goddess of the harvest, in deep despair. Consumed by grief and worry, Demeter began a frantic search for her beloved daughter, scouring the earth in vain. She was accompanied by the goddess Hecate, who bore torches to light their way as they searched day and night.</p>
+            <p>After much time, Demeter discovered the devastating truth: Zeus, king of the gods and Persephone’s own father, had conspired with Hades to allow the abduction. Enraged by this betrayal, Demeter withdrew her favor from the earth, and as a result, nothing would grow. Crops withered, flowers died, and famine spread throughout the world, as the earth lay barren under Demeter's sorrow.</p>
+            <p>Faced with the dire consequences, Zeus realized he had to act. He agreed to have Persephone returned to her mother, hoping to restore balance. However, a complication arose: during her time in the underworld, Persephone had eaten a few seeds of a pomegranate, the fruit of Hades. According to ancient law, this act bound her to the underworld.</p>
+            <p>Because of this, Persephone was required to spend a part of each year in the underworld as Hades' queen. For the remaining time, she could return to the surface and reunite with her mother. Thus, her departure and return became tied to the natural cycles of the earth. When Persephone emerged from the underworld each spring, the earth flourished once again—flowers bloomed, trees bore fruit, and new grain began to grow. But when she descended back into the underworld each autumn, the earth grew cold and barren, marking the arrival of winter and the end of the growing season.</p>
+            <p>This cycle of life, death, and rebirth became the heart of Persephone’s story—her time spent in the underworld mirrored in the seasons, embodying the delicate balance between the underworld's darkness and the earth's fertility.</p>
+
+            <h2>Interpretations</h2>
+            <p>The abduction of Persephone is an etiological myth providing an explanation for the changing of the seasons. Since Persephone had consumed pomegranate seeds in the underworld, she was forced to spend four months, or in other versions six months for six seeds, with Hades.</p>
+            <p>When Persephone would return to the underworld, Demeter's despair at losing her daughter would cause the vegetation and flora of the world to wither, signifying the Autumn and Winter seasons. When Persephone's time is over and she would be reunited with her mother, Demeter's joyousness would cause the vegetation of the earth to bloom and blossom which signifies the Spring and Summer seasons. This also explains why Persephone is associated with Spring: her re-emergence from the underworld signifies the onset of Spring. </p>
+            <p>Therefore, not only does Persephone and Demeter's annual reunion symbolize the changing seasons and the beginning of a new cycle of growth for the crops, it also symbolizes death and the regeneration of life.</p>   
+
+            <h2>List Of Children</h2>
+            <ul>
+                <li>Melinoe</li>
+                <li>Dionysus</li>
+                <li>Erinyes</li>
+            </ul>
+            <form method="get">
+                <select id="nav" onchange="getLink()">
+                    <option selected>Select a page</option>
+                    <option value="index.html">Main</option>
+                    <option value="character.html">Character</option>
+                    <option value="story.html">Story</option>
+                </select>
+            </form>
+
+            <script>
+                function getLink() {
+                    var select = document.getElementById("nav");
+                    var selectedValue = select.value;
+                    if (selectedValue) {
+                        window.location.href = selectedValue;
+                    }
+                }
+            </script>
+        </div>
+    </body>
+</html>

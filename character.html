@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Persephone</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+        <div class="character">
+            <h1>The Queen of the Underworld</h1>
+            <img src="https://lh3.googleusercontent.com/proxy/vOCGRm5dUfLuzix-CM8wid-23PBZLTe5ZHfWHVU9wctGHM5h1zdTI_mVTNrKVA0g4ulalgEngwNG963O9uDZ265F9p5joJEwkCTGN301-tMzvNJ0la7p4k8r" alt="Hades and Persephone">
+            <table>
+                <tr>
+                    <th>Greek</th>
+                    <th>Roman</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td>PERSEPHONE</td>
+                    <td>PROSERPINA</td>
+                    <td>Destroy or Slay</td>
+                </tr>
+            </table>
+            <h2>Who Is Persephone?</h2>
+            <p>PERSEPHONE, the goddess queen of the underworld and the wife of the God Hades. She is also known
+                as the goddess of spring growth and is worshipped by agricultural-based cults that were promised a blessful afterlife.
+            </p>
+            <p>Persephone, also called Kore or Cora, is the daughter of <a href="https://en.wikipedia.org/wiki/Zeus">Zeus</a> and <a href="https://en.wikipedia.org/wiki/Demeter">Demeter</a>.
+                She is oftern depicted as a beautiful young goddess who emobides both the life and death and also rebirth. She is mostly
+                symbolized by the natural cycle of life and death but she has many recognized symboles.
+            </p>
+            <p>Her symbols include:</p>
+            <ul>
+                <li>Pomegranate</li>
+                <li>Seeds of Grain</li>
+                <li>Torch</li>
+                <li>Flowers</li>
+                <li>Deer</li>
+            </ul>
+
+            <p>Her childrens:</p>
+            <ul>
+                <li>Melinoe</li>
+                <li>Dionysus</li>
+                <li>Erinyes</li>
+            </ul>
+
+            <h2>Her Personality</h2>
+            <p>Being the embodiment of both life and death, her personality is that of dual nature. She is the daughter of Demeter, which embodies innocence and renewal of life in spring. 
+                However, being the Queen of the Underworld, she has a darker and more solemn aspect that associates with death and afterlife.
+            </p>
+            <p>Persephone stands as a bridge between life and death and holds the role of a mediator between realms of the living and the dead.</p>
+
+            <form method="get">
+                <select id="nav" onchange="getLink()">
+                    <option selected>Select a page</option>
+                    <option value="index.html">Main</option>
+                    <option value="character.html">Character</option>
+                    <option value="story.html">Story</option>
+                </select>
+            </form>
+
+            <script>
+                function getLink() {
+                    var select = document.getElementById("nav");
+                    var selectedValue = select.value;
+                    if (selectedValue) {
+                        window.location.href = selectedValue;
+                    }
+                }
+            </script>
+        </div>
+    </body>
+</html>

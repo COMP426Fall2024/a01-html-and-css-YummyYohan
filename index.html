@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Persephone</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>Welcome to the Underworld</h1>
+            <img src="https://www.greeklegendsandmyths.com/uploads/5/3/1/3/53133595/800px-lytovchenko-olexandr-kharon_orig.jpg" alt="Underworld image">
+            <p>Here I will carry you soul through the river <a href="https://en.wikipedia.org/wiki/Styx">Styx</a> and learn about Persephone, the goddess of the underworld</p>
+        </div>
+            <form method="get">
+                <select id="nav" onchange="getLink()">
+                    <option selected>Select a page</option>
+                    <option value="index.html">Main</option>
+                    <option value="character.html">Character</option>
+                    <option value="story.html">Story</option>
+                </select>
+            </form>
+
+            <script>
+                function getLink() {
+                    var select = document.getElementById("nav");
+                    var selectedValue = select.value;
+                    if (selectedValue) {
+                        window.location.href = selectedValue;
+                    }
+                }
+            </script>
+
+    </body>
+</html>
