@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f9;
+    background-color: #f5f4f9;
     font-family: Arial, sans-serif;
     
 }
@@ -12,7 +12,7 @@ body {
 #nav {
     width: 200px;
     padding: 5px;
-    border: 1px solid #333;
+    border: 1px solid #333333;
     background-color: #ffffff;
     text-align: center;
     margin: 0 auto;
@@ -49,7 +49,7 @@ h1 {
 }
 
 h2 {
-    color: #6b6bd6; 
+    color: #726bd6; 
     font-size: 2em;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -78,14 +78,14 @@ p {
 }
 
 a:hover {
-    color: #ff6347;
+    color: #ff6c47;
     text-decoration: underline;
 }
 
 img {
     max-width: 100%; 
     height: auto; 
-    border: 2px solid #333; 
+    border: 2px solid #333333; 
     display: block; 
     margin: 0 auto; 
 }
@@ -97,6 +97,6 @@ img {
 }
 
 button:hover {
-    background-color: #ffdd57; 
+    background-color: #fcff57; 
     cursor: pointer;
 }
